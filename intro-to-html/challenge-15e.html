@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>clothing tile</title>
+        <style>
+            .clothing-tile {
+                position: relative;
+                display: inline-block;
+                border-width: 1px;
+                border-color: black;
+                padding: 0px;
+            }
+            .discount-tag {
+                position: absolute;
+                background-color: black;
+                color: white;
+                top: 10px;
+                right: 0;
+                border-radius: 0px;
+                border-width: 2px;
+                border-color: white;
+                padding: 2px;
+            }
+            .add-to-cart-tile {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+            .add-to-cart-button {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body style="background-color: gray; padding-bottom: 1000px;">
+        <div class="clothing-tile">
+            <img src="clothing.jpg" class="clothing-image">
+            <div class="discount-tag">20% OFF</div>
+            <div class="add-to-cart-tile">
+                <button class="add-to-cart-button">add to cart</button>
+            </div>
+        </div>
+    </body>
+</html>
